@@ -1,6 +1,9 @@
 # startt
 🖌️ a modern startpage for the modern user
 
+DEMO: [Click Me!](https://youtu.be/iPPyv6LB14M)
+The above demo uses the default background which is provided, but it is easily customizable.
+
 # credits
 Weather data provided by OpenWeather (TM). Data and database are open and licensed by Open Data Commons Open Database 
 License (ODbL).
