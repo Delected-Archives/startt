@@ -17,6 +17,7 @@ See [the wiki](https://github.com/Delected/startt/wiki)
 - move colours into a separate css file to allow for easy configuration
 - optimize weather and date setting so that they can be set instantly
 - add a bookmarks option (maybe), similar to firefox
+- **install script so that customization is easy**
 - still W.I.P. If there are any bugs, create an issue or PR :)
 
 # contributions
