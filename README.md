@@ -1,8 +1,8 @@
 # startt
 🖌️ a modern startpage for the modern user
 
-DEMO: [Click Me!](https://youtu.be/iPPyv6LB14M)
-The above demo uses the default background which is provided, but it is easily customizable.
+DEMO: [Click me to see a video!](https://youtu.be/iPPyv6LB14M)
+The demo video uses the default background, but it is easily customizable.
 
 # credits
 Weather data and icons provided by OpenWeather (TM). Data and database are open and licensed by Open Data Commons Open Database 
