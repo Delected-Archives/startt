@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+	--img-url: url('https://openweathermap.org/img/wn/01n.png');
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font: 75% Montserrat, sans-serif;
+}
+
+#background {
+  background-image: url('https://wallpaperaccess.com/download/pink-mountain-2005304');
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+  transform: scale(1.1);
+}
+
+.fade {
+  transition: 0.7s;
+}
+
+@keyframes animateIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-in {
+  opacity: 0;
+  animation: animateIn ease 2s 1s; 
+  animation-fill-mode: forwards;
+}
+
+.fade:hover, .fade:active {
+  filter: brightness(0.8);
+}
+
+
+.center {
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#title {
+  color: #ffffff;
+  white-space: nowrap;
+  top: 35%;
+  font-size: 300%;
+}
+
+#search {
+  top: 50%;
+}
+
+#search-button {
+  border-radius: 100px;
+  height: 30px;
+  background: transparent;
+  border: 4px solid white;
+  color: #ffffff;
+  padding: 5px 20px 5px 20px;
+}
+
+#search-button[placeholder] {
+  font-size: 100%
+  line-height: 30px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+#weather-clock {
+  position: relative;
+  text-align: right;
+  vertical-align: middle;
+}
+
+#weather {
+  top: 0px;
+  left: 20px;
+  position: absolute;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#weather::after {
+  content: var(--img-url);
+  display: flex;
+  align-items: center;
+  transform: translateY(-11px);
+}
+
+#clock {
+  vertical-align: -50%;
+  color: #ffffff;
+  top: 0px;
+  right: 20px;
+  position: absolute;
+}
