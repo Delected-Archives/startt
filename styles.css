@@ -80,16 +80,19 @@ body {
 ::placeholder {
   color: #ffffff;
   opacity: 1;
+  font-family: Montserrat, sans-serif;
 }
 
 :-ms-input-placeholder {
   color: #ffffff;
   opacity: 1;
+  font-family: Montserrat, sans-serif;
 }
 
 ::-ms-input-placeholder {
   color: #ffffff;
   opacity: 1;
+  font-family: Montserrat, sans-serif;
 }
 
 #weather-clock {
